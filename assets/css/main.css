@@ -50,7 +50,7 @@ header .paragraph-title, .title{
 	background-color: #ABE188;
 	border-top: 10px solid #F78E69;
 	border-bottom: 10px solid #F78E69;
-	height: 400px;
+	height: 500px;
 }
 
 .panda-about, .about{
@@ -101,10 +101,20 @@ header .paragraph-title, .title{
 	height: 500px;
 }
 
-.img-panda{
+.img-panda2, .img-panda1, .img-panda4, .img-panda3{
 	margin-top: 40px;
 	width: 60%;
+	border: 9px solid #FFF;
 }
+
+.img-panda1{
+	margin-left: 100px;
+}
+
+.img-panda4{
+	margin-right: 100px;
+}
+	
 
 .title-picture{
 	margin-top: 50px;
