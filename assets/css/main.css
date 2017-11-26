@@ -1,0 +1,143 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background-color: #F78E69;
+	height: 200px;
+}
+
+header .paragraph-title, .title{
+	float: right;
+	margin-right: 20px;
+}
+
+
+.title{
+	color: #FFF;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+
+.paragraph-title{
+	color: #FFF;
+	font-size: 15px;
+}
+
+.panda-1{
+	background-image: url(../../assets/img/uno.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 1349px;
+
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.text-1{
+	background-color: #ABE188;
+	border-top: 10px solid #F78E69;
+	border-bottom: 10px solid #F78E69;
+	height: 400px;
+}
+
+.panda-about, .about{
+	background-color: #F78E69;
+	margin-left: 450px;
+	margin-right: 450px;
+	color: #FFF;
+	border: 1px solid #F78E69;
+	text-align: justify;
+}
+
+.panda-about{
+	padding: 10px;	
+}
+
+.about{
+	margin-top:50px;
+	padding-bottom: 15px; 
+	text-align: center;
+}
+
+.panda-2{
+	background-image: url(../../assets/img/dos.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 1349px;
+
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.picture{
+	background-color: #ABE188;
+	color:#FFF;
+	text-align: center;
+	border-bottom: 10px solid #F78E69;
+	border-top: 10px solid #F78E69;
+	height: 500px;
+}
+
+.img-panda{
+	margin-top: 40px;
+	width: 60%;
+}
+
+.title-picture{
+	margin-top: 50px;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.panda-3{
+	background-image: url(../../assets/img/tres.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 1349px;
+
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.foot{
+	background-color: #F78E69;
+	color: #FFF;
+	font-size: 15px;
+}
+
+.foot-text{
+	float: right;
+}
